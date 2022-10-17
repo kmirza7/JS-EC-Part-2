@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkboxes</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- this div contains the label and the input for check all -->
+        <div id="check-all">
+
+            <input type="checkbox" id="checkboxes-control1" name="Check All" value="check">
+            <label for="Check All">Check All</label><br>
+        </div>
+        <!-- this div contains the uncheck button and it's label -->
+        <div id="uncheck-all">
+            <input type="checkbox" id="checkboxes-control2" name="Uncheck All" value="uncheck">
+            <label for="Uncheck All">Uncheck All</label><br>
+        </div>
+        
+        <!-- all of the checkboxes -->
+        <div class="checkboxes-container">
+            <div>
+                
+                <input type="checkbox" class="checkboxes" id="first" name="First" value="First">
+                <label for="First">First</label><br>
+            </div>
+            <div>
+                <input type="checkbox" class="checkboxes" id="second" name="Second" value="Second">
+                <label for="Second">Second</label><br>
+            </div>
+            <div>
+                <input type="checkbox" class="checkboxes" id="third" name="Third" value="Third">
+                <label for="Third">Third</label><br>
+            </div>
+            <div>
+                <input type="checkbox" class="checkboxes" id="fourth" name="Fourth" value="Fourth">
+                <label for="Fourth">Fourth</label><br>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
